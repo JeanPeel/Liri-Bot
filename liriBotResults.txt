@@ -1,0 +1,218 @@
+
+
+(master)
+$ node liri.js concert-this the hu
+keys is loaded
+Command: concert-this
+Query: the hu
+-------------------------
+Venue: Beach Road Weekend
+Location: Vineyard Haven MA
+Date: 07/24/2020
+-------------------------
+
+(master)
+$ node liri.js concert-this tycho
+keys is loaded
+Command: concert-this
+Query: tycho
+-------------------------
+Venue: Ogden Twilight – Tycho w/ Com Truise
+Location: Ogden UT
+Date: 06/12/2020
+-------------------------
+
+(master)
+$ node liri.js concert-this the smashing pumpkins
+keys is loaded
+Command: concert-this
+Query: the smashing pumpkins
+-------------------------
+Venue: Beach Road Weekend
+Location: Vineyard Haven MA
+Date: 07/24/2020
+-------------------------
+
+(master)
+$ node liri.js movie-this serenity
+keys is loaded
+Command: movie-this
+Query: serenity
+http://www.omdbapi.com/?apikey=trilogy&t=serenity
+{
+  Title: 'Serenity',
+  Year: '2005',
+  Rated: 'PG-13',
+  Released: '30 Sep 2005',
+  Runtime: '119 min',
+  Genre: 'Action, Adventure, Sci-Fi, Thriller',
+  Director: 'Joss Whedon',
+  Writer: 'Joss Whedon',
+  Actors: 'Nathan Fillion, Gina Torres, Alan Tudyk, Morena Baccarin',  Plot: 'The crew of the ship Serenity try to evade an assassin sent to recapture one of their members who is telepathic.',
+  Language: 'English, Mandarin',
+  Country: 'USA',
+  Awards: '9 wins & 9 nominations.',
+  Poster: 'https://m.media-amazon.com/images/M/MV5BOWE2MDAwZjEtODEyOS00ZjYyLTgzNDUtYmNiY2VmNWRiMTQxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg',
+  Ratings: [
+    { Source: 'Internet Movie Database', Value: '7.8/10' },
+    { Source: 'Rotten Tomatoes', Value: '82%' },
+    { Source: 'Metacritic', Value: '74/100' }
+  ],
+  Metascore: '74',
+  imdbRating: '7.8',
+  imdbVotes: '277,926',
+  imdbID: 'tt0379786',
+  Type: 'movie',
+  DVD: 'N/A',
+  BoxOffice: 'N/A',
+  Production: 'N/A',
+  Website: 'N/A',
+  Response: 'True'
+}
+-------------------------------------
+Title: Serenity
+Year Released: 2005
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 82%
+Country Produced: USA
+Language: English, Mandarin
+Plot: undefined
+Actors: Nathan Fillion, Gina Torres, Alan Tudyk, Morena Baccarin
+-------------------------------------
+
+(master)
+$ node liri.js spotify-this-song we will rock you
+keys is loaded
+Command: spotify-this-song
+Query: we will rock you
+---------------------
+Artist: Queen
+Song Name: We Will Rock You - Remastered
+Preview Link: null
+Album: News Of The World (Deluxe Remastered Version)
+---------------------
+
+(master)
+$ node liri.js spotify-this-song ain't no man
+>
+
+(master)
+$
+
+(master)
+$ node liri.js spotify-this-song aint no man
+keys is loaded
+Command: spotify-this-song
+Query: aint no man
+---------------------
+Artist: The Avett Brothers
+Song Name: Ain't No Man
+Preview Link: null
+Album: True Sadness
+---------------------
+
+(master)
+$ node liri.js spotify-this-song lords of iron
+keys is loaded
+Command: spotify-this-song
+Query: lords of iron
+---------------------
+Artist: Antti Martikainen
+Song Name: Lords of Iron
+Preview Link: https://p.scdn.co/mp3-preview/cc3d6f8918cf7ba43583c7f6368b5533b947eafa?cid=28847a4d9677459eaebf705f168edceb
+Album: Northern Steel
+---------------------
+
+(master)
+$ node liri.js movie-this spiderman
+keys is loaded
+Command: movie-this
+Query: spiderman
+http://www.omdbapi.com/?apikey=trilogy&t=spiderman
+{
+  Title: 'Spiderman',
+  Year: '1990',
+  Rated: 'N/A',
+  Released: 'N/A',
+  Runtime: '5 min',
+  Genre: 'Short',
+  Director: 'Christian Davi',
+  Writer: 'N/A',
+  Actors: 'N/A',
+  Plot: 'N/A',
+  Language: 'German',
+  Country: 'Switzerland',
+  Awards: 'N/A',
+  Poster: 'N/A',
+  Ratings: [ { Source: 'Internet Movie Database', Value: '5.7/10' } ],
+  Metascore: 'N/A',
+  imdbRating: '5.7',
+  imdbVotes: '91',
+  imdbID: 'tt0100669',
+  Type: 'movie',
+  DVD: 'N/A',
+  BoxOffice: 'N/A',
+  Production: 'N/A',
+  Website: 'N/A',
+  Response: 'True'
+}
+-------------------------------------
+Title: Spiderman
+Year Released: 1990
+IMDB Rating: 5.7
+(node:8584) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'Value' of undefined
+    at C:\Users\User 3\Documents\bootcamp\react\liriBot\Liri-Bot\liri.js:89:84
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:8584) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8584) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+(master)
+$ node liri.js movie-this indiana jones
+keys is loaded
+Command: movie-this
+Query: indiana jones
+http://www.omdbapi.com/?apikey=trilogy&t=indiana jones
+{
+  Title: 'Indiana Jones and the Raiders of the Lost Ark',
+  Year: '1981',
+  Rated: 'PG',
+  Released: '12 Jun 1981',
+  Runtime: '115 min',
+  Genre: 'Action, Adventure',
+  Director: 'Steven Spielberg',
+  Writer: 'Lawrence Kasdan (screenplay by), George Lucas (story by), Philip Kaufman (story by)',
+  Actors: 'Harrison Ford, Karen Allen, Paul Freeman, Ronald Lacey',
+  Plot: "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+  Language: 'English, German, Hebrew, Spanish, Arabic, Nepali',
+  Country: 'USA',
+  Awards: 'Won 4 Oscars. Another 31 wins & 24 nominations.',
+  Poster: 'https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_SX300.jpg',
+  Ratings: [
+    { Source: 'Internet Movie Database', Value: '8.4/10' },
+    { Source: 'Rotten Tomatoes', Value: '95%' },
+    { Source: 'Metacritic', Value: '85/100' }
+  ],
+  Metascore: '85',
+  imdbRating: '8.4',
+  imdbVotes: '855,641',
+  imdbID: 'tt0082971',
+  Type: 'movie',
+  DVD: 'N/A',
+  BoxOffice: 'N/A',
+  Production: 'N/A',
+  Website: 'N/A',
+  Response: 'True'
+}
+-------------------------------------
+Title: Indiana Jones and the Raiders of the Lost Ark
+Year Released: 1981
+IMDB Rating: 8.4
+Rotten Tomatoes Rating: 95%
+Country Produced: USA
+Language: English, German, Hebrew, Spanish, Arabic, Nepali
+Plot: undefined
+Actors: Harrison Ford, Karen Allen, Paul Freeman, Ronald Lacey
+-------------------------------------
+
+(master)
+$
