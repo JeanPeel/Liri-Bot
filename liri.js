@@ -14,7 +14,7 @@ const { cpuUsage } = require('process');
 // console.log(keys.spotify)
 var spotify = new Spotify (keys.spotify);
 
-// twitter is not set up correctly yet
+// twitter is not set up correctly yet maybe in the future
 // let client = new Twitter(keys.twitter);
 // console.log(client)
 
